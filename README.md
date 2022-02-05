@@ -84,10 +84,11 @@ Algorithm:
 3) Create pull request to `main` branch;
 4) Make sure that all checks passed successfully;
 5) Assign `sterlyukin` as reviewer of your pull-request;
-6) Wait for comments or approve;
-7) If your PR has some comments to fix - fix them and push to the branch again;
-8) Leave comments that you fixed under all remarks;
-9) When PR will be successfully closed - I wil publish it to `nuget`.
+6) Link issue to your PR;
+7) Wait for comments or approve;
+8) If your PR has some comments to fix - fix them and push to the branch again;
+9) Leave comments that you fixed under all remarks;
+10) When PR will be successfully closed - I wil publish it to `nuget`.
 
 ## CI/CD
 
