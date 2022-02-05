@@ -5,6 +5,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
+        <Title>OperationResult library</Title>
+        <Authors>Nikita Sterlyukin</Authors>
+        <Description>Encapsulates the result of the operation</Description>
+        <RepositoryUrl>https://github.com/sterlyukin/OperationResult</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
