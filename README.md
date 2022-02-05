@@ -5,6 +5,12 @@
 [![latest version](https://img.shields.io/nuget/v/Sterlyukin.OperationResult)](https://www.nuget.org/packages/Sterlyukin.OperationResult)
 
 This is repository for `OperationResult` opensource library.
+`OperationResult` and `OperationResult<TType>` is a type that can be used in validation, performing various actions.
+
+Allows you to return from the method:
+- a sign of success of execution;
+- data of any type;
+- validation message.
 
 ## Installation
 
