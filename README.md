@@ -15,7 +15,7 @@ Allows you to return from the method:
 ## Installation
 
 ```
-dotnet add package Sterlyukin.OperationResult --version 1.0.1
+dotnet add package Sterlyukin.OperationResult
 ```
 
 ## Usage
