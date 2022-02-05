@@ -9,6 +9,7 @@
         <Authors>Nikita Sterlyukin</Authors>
         <Description>Encapsulates the result of the operation</Description>
         <RepositoryUrl>https://github.com/sterlyukin/OperationResult</RepositoryUrl>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
     </PropertyGroup>
 
 </Project>
