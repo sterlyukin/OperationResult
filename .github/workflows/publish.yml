@@ -1,0 +1,27 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    - name: Create or update NuGet Package
+      run: dotnet pack -c Release /p:Version=${{ github.event.release.tag_name }} /p:PackageReleaseNotes="See https://github.com/sterlyukin/OperationResult/releases/tag/${{ github.event.release.tag_name }}"
+      working-directory: ./OperationResult   
+    - name: Archive NuGet Package
+      uses: actions/upload-artifact@v1
+      with:
+        name: OperationResult
+        path: ./OpearationResult/bin/Release/OperationResult.${{ github.event.release.tag_name }}.nupkg
+    - name: Publish Nuget Package
+      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --no-symbols true
