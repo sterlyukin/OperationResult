@@ -82,7 +82,7 @@ Algorithm:
 1) Create an issue - describe what do you want to impore/fix in the library;
 2) Create new branch from `main` by pattern `issues_{issue number}`;
 3) Create pull request to `main` branch;
-4) Make sure that `build` and `test` pipelines passed successfully;
+4) Make sure that all checks passed successfully;
 5) Assign `sterlyukin` as reviewer of your pull-request;
 6) Wait for comments or approve;
 7) If your PR has some comments to fix - fix them and push to the branch again;
