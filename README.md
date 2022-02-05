@@ -72,3 +72,26 @@ public class Service
 
 Repository is opened for your contribution.
 Improve it by creating `Issues` and `Pull requests`.
+
+### Creating Pull request
+
+Pay attention that pull requests can be created only from issues.
+
+Algorithm:
+
+1) Create an issue - describe what do you want to impore/fix in the library;
+2) Create new branch from `main` by pattern `issues_{issue number}`;
+3) Create pull request to `main` branch;
+4) Make sure that `build` and `test` pipelines passed successfully;
+5) Assign `sterlyukin` as reviewer of your pull-request;
+6) Wait for comments or approve;
+7) If your PR has some comments to fix - fix them and push to the branch again;
+8) Leave comments that you fixed under all remarks;
+9) When PR will be successfully closed - I wil publish it to `nuget`.
+
+## CI/CD
+
+CI/CD automated by Github Actions.
+`Build` and `test` are launched  on push to the branch.
+
+`Publish` to nuget launches manually in releases.
