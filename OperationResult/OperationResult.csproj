@@ -10,6 +10,9 @@
         <Description>Encapsulates the result of the operation</Description>
         <RepositoryUrl>https://github.com/sterlyukin/OperationResult</RepositoryUrl>
         <AssemblyVersion>1.0.0</AssemblyVersion>
+        <PackageId>Sterlyukin.OperationResult</PackageId>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>operation, result, error, handling</PackageTags>
     </PropertyGroup>
 
 </Project>
