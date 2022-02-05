@@ -13,6 +13,8 @@
         <PackageId>Sterlyukin.OperationResult</PackageId>
         <RepositoryType>github</RepositoryType>
         <PackageTags>operation, result, error, handling</PackageTags>
+        <AssemblyName>OperationResultLibrary</AssemblyName>
+        <RootNamespace>OperationResultLibrary</RootNamespace>
     </PropertyGroup>
 
 </Project>

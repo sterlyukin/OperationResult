@@ -1,4 +1,4 @@
-﻿namespace OperationResult;
+﻿namespace OperationResultLibrary;
 
 public class OperationResult
 {

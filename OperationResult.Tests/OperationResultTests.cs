@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace OperationResult.Tests;
+namespace OperationResultLibrary.Tests;
 
 internal class OperationResultTests
 {

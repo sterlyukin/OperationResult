@@ -1,4 +1,4 @@
-﻿namespace OperationResult.Tests;
+﻿namespace OperationResultLibrary.Tests;
 
 public class TypeForTest
 {

@@ -9,6 +9,10 @@
         <OutputType>Library</OutputType>
 
         <LangVersion>10</LangVersion>
+
+        <AssemblyName>OperationResultLibrary.Tests</AssemblyName>
+
+        <RootNamespace>OperationResultLibrary.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
