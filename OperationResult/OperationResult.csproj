@@ -17,6 +17,7 @@
         <AssemblyName>OperationResultLibrary</AssemblyName>
         <RootNamespace>OperationResultLibrary</RootNamespace>
         <PackageVersion>1.0.3</PackageVersion>
+        <PackageLicenseUrl>https://github.com/sterlyukin/OperationResult/blob/main/License.md</PackageLicenseUrl>
     </PropertyGroup>
 
 </Project>
