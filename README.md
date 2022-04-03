@@ -3,6 +3,7 @@
 [![build](https://github.com/sterlyukin/OperationResult/actions/workflows/build.yml/badge.svg)](https://github.com/sterlyukin/OperationResult/actions/workflows/build.yml)
 [![test](https://github.com/sterlyukin/OperationResult/actions/workflows/test.yml/badge.svg)](https://github.com/sterlyukin/OperationResult/actions/workflows/test.yml)
 [![latest version](https://img.shields.io/nuget/v/Sterlyukin.OperationResult)](https://www.nuget.org/packages/Sterlyukin.OperationResult)
+[![downloads](https://img.shields.io/nuget/dt/Sterlyukin.OperationResult)](https://www.nuget.org/packages/Sterlyukin.OperationResult)
 
 This is repository for `OperationResult` opensource library.
 `OperationResult` and `OperationResult<TType>` is a type that can be used in validation, performing various actions.

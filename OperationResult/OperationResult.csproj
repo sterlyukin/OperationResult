@@ -9,13 +9,14 @@
         <Authors>Nikita Sterlyukin</Authors>
         <Description>Encapsulates the result of the operation</Description>
         <RepositoryUrl>https://github.com/sterlyukin/OperationResult</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/sterlyukin/OperationResult</PackageProjectUrl>
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <PackageId>Sterlyukin.OperationResult</PackageId>
         <RepositoryType>github</RepositoryType>
         <PackageTags>operation, result, error, handling</PackageTags>
         <AssemblyName>OperationResultLibrary</AssemblyName>
         <RootNamespace>OperationResultLibrary</RootNamespace>
-        <PackageVersion>1.0.2</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
     </PropertyGroup>
 
 </Project>
