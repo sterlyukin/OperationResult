@@ -89,7 +89,7 @@ Algorithm:
 7) Wait for comments or approve;
 8) If your PR has some comments to fix - fix them and push to the branch again;
 9) Leave comments that you fixed under all remarks;
-10) When PR will be successfully closed - I wil publish it to `nuget`.
+10) When PR will be successfully closed - I will publish it to `nuget`.
 
 ## CI/CD
 
